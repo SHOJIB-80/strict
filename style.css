@@ -1,0 +1,829 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,ul {
+    margin: 0;
+    padding: 0;
+}
+header{
+
+background-color: #f6f9f9;
+
+PADDING: 20px 0;
+}
+.header_wrapper{
+
+display: flex;
+
+justify-content: space-between;
+
+width: 80%;
+
+margin: auto;
+
+align-items: center;
+}
+.logo{width: 20%;}
+.logo img{
+    height: auto;
+}
+nav{
+    
+width: 40%;
+    
+/* display: flex; */
+}
+nav ul{
+
+display: flex;
+
+justify-content: space-between;
+
+list-style: none;
+}
+nav ul li {
+
+font-family: 'Lato', sans-serif;
+}
+nav ul li a{
+
+text-decoration: none;
+
+color: #333366;
+
+text-transform: uppercase;
+}
+.banner{
+
+}
+.banner_wrapper{
+
+position: relative;
+}
+.banner_wrapper img{
+
+width: 100%;
+}
+.banner_content{
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%,-50%);
+
+text-align: center;
+}
+.banner_content h1{
+
+color: #fff;
+
+text-transform: uppercase;
+
+font-size: 70px;
+
+font-family: 'Lato', sans-serif;
+}
+.banner_content p{
+
+margin: 20px 30px;
+
+color: #fff;
+
+font-family: 'Lato', sans-serif;
+}
+.banner_content button{
+    
+color: #297cb2;
+    
+border: none;
+    
+background: transparent;
+    
+color: #fff;
+    
+border: 1px solid #15a4fa;
+    
+padding: 10px 20px;
+    
+border-radius: 4px;
+    
+font-family: 'Lato', sans-serif;
+}
+.banner_content span {
+    
+height: 1px;
+    
+display: block;
+    
+width: 100%;
+    
+background-color: #15a4fa;
+}
+.banner_content button:hover{
+    background-color: #15a4fa;
+    transition: .5s all  ;
+    cursor:pointer;
+}
+nav ul li a:hover{
+    color: #15a4fa;
+    transition: .3s all;
+}
+.down{
+    
+position: absolute;
+    
+left: 50%;
+    
+bottom: 75px;
+    
+transform: translate(-50%, 0px);
+    
+color: #fff;
+    
+font-size: 30px;
+
+animation:downandup 1s linear infinite alternate;
+}
+@keyframes downandup {
+    0%{
+        bottom:60px ;
+
+    }
+    100%{
+        bottom: 100px;
+
+    }
+}
+.simple_section{
+    background-color: #f6f9f9;
+    /* display: flex; */
+    padding: 50px;
+}
+.simple_wrapper{
+
+width: 80%;
+
+margin: auto;
+
+text-align: center;
+}
+.simple_content{
+
+/* padding: 50px; */
+
+/* margin: 20px; */
+}
+.simple_content h1{color: #333366;margin-bottom: 25px;font-family: 'Lato', sans-serif;}
+.simple_content p{
+
+color: #999999;
+
+font-family: 'Lato', sans-serif;
+}
+.service_section{
+
+padding: 50px 0px;
+}
+.service_wrapper{
+
+width: 70%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.service_item{
+
+width: 30%;
+}
+.service_icon{
+
+width: 65px;
+
+height: 65px;
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#33ccff+0,66ccff+50,33ccff+50,66ccff+100 */
+background: linear-gradient(to right,  #33ccff 0%,#66ccff 50%,#33ccff 50%,#66ccff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+color: white;*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,ul {
+    margin: 0;
+    padding: 0;
+}
+header{
+
+background-color: #f6f9f9;
+
+PADDING: 20px 0;
+}
+.header_wrapper{
+
+display: flex;
+
+justify-content: space-between;
+
+width: 80%;
+
+margin: auto;
+
+align-items: center;
+}
+.logo{width: 20%;}
+.logo img{
+    height: auto;
+}
+nav{
+    
+width: 40%;
+    
+/* display: flex; */
+}
+nav ul{
+
+display: flex;
+
+justify-content: space-between;
+
+list-style: none;
+}
+nav ul li {
+
+}
+nav ul li a{
+
+text-decoration: none;
+
+color: #333366;
+
+text-transform: uppercase;
+}
+.banner{
+
+}
+.banner_wrapper{
+
+position: relative;
+}
+.banner_wrapper img{
+
+width: 100%;
+}
+.banner_content{
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%,-50%);
+
+text-align: center;
+}
+.banner_content h1{
+
+color: #fff;
+
+text-transform: uppercase;
+
+font-size: 70px;
+}
+.banner_content p{
+
+margin: 20px 30px;
+
+color: #fff;
+}
+.banner_content button{
+    
+color: #297cb2;
+    
+border: none;
+    
+background: transparent;
+    
+color: #fff;
+    
+border: 1px solid #15a4fa;
+    
+padding: 10px 20px;
+    
+border-radius: 4px;
+}
+.banner_content span {
+    
+height: 1px;
+    
+display: block;
+    
+width: 100%;
+    
+background-color: #15a4fa;
+}
+.banner_content button:hover{
+    background-color: #15a4fa;
+    transition: .5s all  ;
+    cursor:pointer;
+}
+nav ul li a:hover{
+    color: #15a4fa;
+    transition: .3s all;
+}
+.down{
+    
+position: absolute;
+    
+left: 50%;
+    
+bottom: 75px;
+    
+transform: translate(-50%, 0px);
+    
+color: #fff;
+    
+font-size: 30px;
+
+animation:downandup 1s linear infinite alternate;
+}
+@keyframes downandup {
+    0%{
+        bottom:60px ;
+
+    }
+    100%{
+        bottom: 100px;
+
+    }
+}
+.simple_section{
+    background-color: #f6f9f9;
+    /* display: flex; */
+    padding: 50px;
+}
+.simple_wrapper{
+
+width: 80%;
+
+margin: auto;
+
+text-align: center;
+}
+.simple_content{
+
+/* padding: 50px; */
+
+/* margin: 20px; */
+}
+.simple_content h1{color: #333366;margin-bottom: 25px;}
+.simple_content p{
+
+color: #999999;
+}
+.service_section{
+
+padding: 50px 0px;
+}
+.service_wrapper{
+
+width: 70%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.service_item{
+
+width: 30%;
+}
+.service_icon{
+
+width: 65px;
+
+height: 65px;
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#33ccff+0,66ccff+50,33ccff+50,66ccff+100 */
+background: linear-gradient(to right,  #33ccff 0%,#66ccff 50%,#33ccff 50%,#66ccff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+color: white;
+
+font-size: 30px;
+
+margin: auto;
+
+margin-bottom: 20px;
+}
+.service_item h3{
+
+text-align: center;
+
+text-transform: capitalize;
+
+font-size: 25px;
+
+margin-bottom: 20px;
+
+color: #333366;
+}
+.service_item i{
+
+}
+.service_item p{
+    
+text-align: center;
+    
+color: #999999;
+}
+.gallery_section{
+
+background-color: #f6f9f9;
+
+padding: 70px 0px;
+}
+.gallery_wrapper{
+
+width: 80%;
+
+margin: auto;
+}
+.tittle{
+
+text-align: center;
+}
+.tittle h1{
+
+margin-bottom: 15px;
+
+font-size: 30px;
+
+color: #333366;
+}
+.tittle p{
+ margin-bottom: 20px;
+color: #999999;
+}
+.gallery{
+
+display: flex;
+
+justify-content: space-between;
+
+flex-wrap: wrap;
+}
+.item {
+
+width: 32%;
+
+/* position: relative; */
+}
+.item img{
+    
+/* display: flex; */
+    
+width: 100%;
+    
+margin-bottom: 20px;
+    
+/* position: relative; */
+}
+ .item::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#33ccff+0,66ccff+50,33ccff+50,66ccff+100 */
+background: linear-gradient(to right,  #33ccff 0%,#66ccff 50%,#33ccff 50%,#66ccff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+opacity: .5%
+;
+ 
+ }
+
+
+
+
+
+
+font-size: 30px;
+
+margin: auto;
+
+margin-bottom: 20px;
+}
+.service_item h3{
+
+text-align: center;
+
+text-transform: capitalize;
+
+font-size: 25px;
+
+margin-bottom: 20px;
+
+color: #333366;
+
+font-family: 'Lato', sans-serif;
+}
+.service_item i{
+
+}
+.service_item p{
+    
+text-align: center;
+    
+color: #999999;
+    
+font-family: 'Lato', sans-serif;
+}
+.gallery_section{
+
+background-color: #f6f9f9;
+
+padding: 70px 0px;
+}
+.gallery_wrapper{
+
+width: 80%;
+
+margin: auto;
+}
+.tittle{
+
+text-align: center;
+}
+.tittle h1{
+
+margin-bottom: 15px;
+
+font-size: 30px;
+
+color: #333366;
+
+font-family: 'Lato', sans-serif;
+}
+.tittle p{
+ margin-bottom: 20px;
+ color: #999999;
+ font-family: 'Lato', sans-serif;
+}
+.gallery{
+
+display: flex;
+
+justify-content: space-between;
+
+flex-wrap: wrap;
+}
+.item {
+
+width: 32%;
+
+position: relative;
+
+
+margin-bottom: 20px;
+}
+.item img{
+    
+/* display: flex; */
+    
+width: 100%;
+    
+margin-bottom: 20px;
+    
+/* position: relative; */
+    
+height: 100%;
+}
+
+.overlay{
+    content: '';
+    position: absolute;
+    /* color: blue; */
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: .5;
+background: linear-gradient(to right,  #33ccff 0%,#66ccff 50%,#33ccff 50%,#66ccff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   
+    /* bottom: 0; */
+    transition: .5s all ease-in-out;
+
+}
+
+
+
+.item:hover .overlay{
+    width:100%;
+}
+.icon_list{
+
+left: 45%;
+
+position: absolute;
+
+top: 50%;
+
+transform: translate(-50%, -50%);
+opacity: 0;
+}
+.icon_list ul{
+
+list-style: none;
+
+display: flex;
+
+} 
+ .icon_list ul li{
+    margin: 5px;border: 1px solid #fff;width: 30px;height: 30px;display: flex;justify-content: center;align-items: center;
+   transition: .5sec all ease-in-out;
+   border-radius: 4px;
+}
+
+.icon_list ul li a{
+
+color: #fff;
+}
+
+.item:hover .icon_list{
+    opacity: 1;
+    transition: .5s all;
+    left: 50%;
+
+}
+.icon_list ul li:hover{
+    margin-top: 3px;
+    transition: .5sec all ease-in-out;
+
+}
+.contact_form{
+  background-image: url(../images/seven.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact_wrapper{
+
+width: 35%;
+
+margin: auto;
+}
+.contact_titlle{
+
+text-align: center;
+}
+.contact_titlle h1{
+
+padding: 20px;
+
+text-transform: capitalize;
+
+color: #fff;
+
+font-family: 'Lato', sans-serif;
+}
+.contact_titlle p{
+
+color: #999999;
+
+margin-bottom: 20px;
+
+font-family: 'Lato', sans-serif;
+}
+form{
+
+text-align: end;
+}
+form input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border: 1px solid #f6f9f9;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    padding: 8px 15px;
+    font-family: 'Lato', sans-serif;
+    } 
+form textarea{
+
+width: 100%;
+
+background: transparent;
+
+border: none;
+
+border: 1px solid #f6f9f9;
+
+margin-bottom: 20px;
+
+padding: 15px;
+
+border-radius: 3px;
+
+font-family: 'Lato', sans-serif;
+}
+form button{
+
+background: transparent;
+
+border: none;
+
+border: 1px solid #15a4fa;
+
+border-radius: 3px;
+
+color: #fff;
+
+padding: 8px 16px;
+
+transition: .5s all ease-in-out;
+
+font-family: 'Lato', sans-serif;
+}
+form button:hover {
+    background-color: #15a4fa;
+}
+footer{
+
+background-color: #f6f9f9;
+
+padding: 40px 0;
+}
+.footer_wrapper{
+
+width: 70%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.copyright{
+
+color: #999999;
+}
+
+.copyright p{
+
+font-family: 'Lato', sans-serif;
+}
+.social_icon{
+
+}
+.social_icon ul{
+
+display: flex;
+}
+.social_icon ul li{
+
+list-style: none;
+
+display: flex;
+
+margin-left: 20px;
+
+height: 32px;
+
+width: 32px;
+
+background-color: #15a4fa;
+
+justify-content: center;
+
+align-items: center;
+}
+.social_icon ul li a{
+
+color: #fff;
+}
+.social_icon ul li a i {
+    
+}
